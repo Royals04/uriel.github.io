@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Joyería 3D - Oscar Urie</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .portfolio-item {
+            margin-bottom: 50px;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+        .portfolio-item h2 {
+            text-align: center;
+            margin: 20px 0 10px;
+        }
+        .portfolio-item p {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Oscar Urie</h1>
+            <p>Diseñador de Joyería 3D</p>
+        </header>
+        <section>
+            <div class="portfolio-item">
+                <h2>Trabajo 1</h2>
+                <img src="tu-imagen-1.jpg" alt="Trabajo 1">
+                <p>Descripción del Trabajo 1.</p>
+            </div>
+            <div class="portfolio-item">
+                <h2>Trabajo 2</h2>
+                <img src="tu-imagen-2.jpg" alt="Trabajo 2">
+                <p>Descripción del Trabajo 2.</p>
+            </div>
+            <!-- Agrega más trabajos aquí -->
+        </section>
+        <footer>
+            <p>Contacto: +52 3531036508 | <a href="mailto:oscar.urie.viera@hotmail.com" style="color: #fff;">oscar.urie.viera@hotmail.com</a></p>
+        </footer>
+    </div>
+</body>
+</html>
